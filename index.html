@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <link rel="stylesheet" href="/public/css/style.css" />
+  <title>Simple-chat</title>
+</head>
+<body>
+  <div class="wrap">
+    <form action="">
+      <input type="text" />
+      <button>发送</button>
+    </form>
+    <div id="content">
+      
+    </div>
+  </div>
+  
+  <script src="/public/js/jquery-1.11.1.min.js"></script>
+  <script src="/node_modules/socket.io/node_modules/socket.io-client/socket.io.js"></script>
+  <script src="/public/js/main.js"></script>
+  <script>
+      var socket = io();
+      // console.log(socket);
+  </script>
+</body>
+</html>
